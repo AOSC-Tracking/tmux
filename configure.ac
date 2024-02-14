@@ -394,7 +394,7 @@ if test "x$enable_utf8proc" = xyes; then
 			LIBS="$LIBUTF8PROC_LIBS $LIBS"
 		]
 	)
-	AC_CHECK_HEADER(utf8proc.h, enable_utf8proc=yes, enable_utf8proc=no)
+	AC_CHECK_HEADER(libutf8proc/utf8proc.h, enable_utf8proc=yes, enable_utf8proc=no)
 	if test "x$enable_utf8proc" = xyes; then
 		AC_SEARCH_LIBS(
 			utf8proc_charwidth,

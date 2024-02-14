@@ -16,7 +16,7 @@
 
 #include <sys/types.h>
 
-#include <utf8proc.h>
+#include <libutf8proc/utf8proc.h>
 
 #include "compat.h"
 

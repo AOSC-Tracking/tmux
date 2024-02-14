@@ -45,7 +45,7 @@
 #endif
 
 #ifdef HAVE_UTF8PROC
-#include <utf8proc.h>
+#include <libutf8proc/utf8proc.h>
 #endif
 
 #ifndef __GNUC__
